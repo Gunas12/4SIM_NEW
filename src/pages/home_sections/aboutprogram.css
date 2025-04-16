@@ -5,13 +5,13 @@ body {
   overflow-x: hidden;
   width: 100%;
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(
+  /* background: linear-gradient(
     115deg,
     rgba(39, 48, 107, 1),
     rgba(37, 46, 102, 1),
     rgba(21, 26, 63, 1),
     rgba(7, 10, 31, 1)
-  );
+  ); */
 }
 .about-program-main-container {
   display: flex;
@@ -20,6 +20,7 @@ body {
   align-items: center;
   width: 100%;
   padding: 40px;
+  background-color: white;
 }
 
 .about-first-div {
@@ -27,7 +28,7 @@ body {
 }
 .about-program-title {
   font-size: 44px;
-  color: rgba(255, 255, 255, 1) !important;
+  /* color: rgba(255, 255, 255, 1) !important; */
   font-weight: bold;
 }
 
@@ -37,7 +38,7 @@ body {
 .about-first-div p {
   font-size: 20px;
   line-height: 30px;
-  color: white;
+  /* color: white; */
   margin-top: 10px;
 }
 

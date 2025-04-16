@@ -11,7 +11,7 @@ const AboutProgram = () => {
       <div className="about-first-div">
         <h2 className="about-program-title">{t('About Program')}</h2>
         <p>{t('The overall coordination tasks for the “Industry 4.0 Readiness” program (Program) are carried out by the Fourth Industrial Revolution Analysis and Coordination Center (4SIM).')}</p>
-        <p style={{ color: "white" }}>
+        <p >
           {t('The program is implemented under the supervision of the Ministry of Economy (MOE) of the Republic of Azerbaijan.')}
         </p>
         <p>
