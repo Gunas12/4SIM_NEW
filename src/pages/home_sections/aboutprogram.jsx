@@ -22,8 +22,8 @@ const AboutProgram = () => {
         <p>
           {/* {t('Through structured assessments, strategic roadmaps, financial assistance, and ongoing mentorship,')} */}
           <b className="about-bold-text">
-  {t("The program includes measures such as assessing companies' existing digital capabilities, developing personalized roadmaps, providing financial support, as well as providing methodological support and institutional capacity building on an ongoing basis to ensure the successful implementation of the transformation.")}
-</b>
+          {t("The program includes measures such as assessing companies' existing digital capabilities, developing personalized roadmaps, developing a roadmap for sustainable development readiness, providing financial support, as well as providing methodological support and institutional capacity building on an ongoing basis to ensure the successful implementation of the transformation.")}
+          </b>
         </p>
       </div>
       <div className="about-second-div">
