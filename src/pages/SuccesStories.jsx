@@ -21,7 +21,7 @@ function SuccesStories() {
   const videoRef = React.useRef(null);
 
   return (
-    <div className="succes" style={{ backgroundColor: "white" }}>
+    <div className="succes" style={{ backgroundColor: "#0F3567" }}>
       <div className="video-home1">
         <video autoPlay muted loop>
           <source src={Success} type="video/mp4" />
@@ -35,12 +35,13 @@ function SuccesStories() {
           marginTop: "28px",
           marginBottom: "0px",
           textAlign: "center",
+          color: "white",
         }}
       >
         {t("Success Stories")}
       </h2>
       <section className="description-section">
-        <p className="bb">
+        <p className="bb" style={{ color: "white" }}>
           {t(
             "The “Industry 4.0 Readiness” Program has already made a significant impact by supporting the digital transformation journeys of three leading manufacturing companies in Azerbaijan. The pilot participants—Metak, Azerfloat, and STP—have successfully completed the program and are currently in the process of securing financial support to implement their transformation initiatives."
           )}
