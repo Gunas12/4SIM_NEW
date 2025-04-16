@@ -315,13 +315,25 @@
 /*#0F3567*/
 
 .criteria-item {
-  background-color: rgb(255, 255, 255);
-  transition: transform 0.3s ease-in-out;
-  border: 2px solid #0f3567;
+  background-color: #082e5f;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: 1px solid #008bf9;
+  border-bottom: 4px solid gray;
   border-radius: 10px;
+  color: white;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
 .criteria-item:hover {
   transform: scale(1.017);
-  border: 3px solid #0f3567;
-  background-color: rgba(240, 248, 255, 0.47);
+  border-color: #0f3567;
+  border-bottom-color: #008bf9;
+  box-shadow: 0 5px 10px rgba(0, 139, 249, 0.4);
+}
+.criteria-item h4 {
+  font-size: 20px;
+}
+
+.criteria-item:hover h4 {
+  color: #008bf9;
+  font-size: 20px;
 }
