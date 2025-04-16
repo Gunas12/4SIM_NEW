@@ -36,6 +36,7 @@ function Eligibility() {
             fontSize: "38px",
             marginTop: "32px",
             marginBottom: "0px",
+            textAlign: "center",
           }}
         >
           {t("Eligibility və Prioritization")}

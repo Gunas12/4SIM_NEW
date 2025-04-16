@@ -27,7 +27,7 @@ function SuccesStories() {
           <source src={Success} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <h2 className="video-title">{t("Success Stories")}</h2>
+        <h2 className="video-title  s_v">{t("Success Stories")}</h2>
       </div>
       <h2
         style={{

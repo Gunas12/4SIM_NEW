@@ -192,7 +192,7 @@
 }
 .prior_card {
   width: 360px;
-  height: 630px;
+  height: 640px;
   background-color: #eef2ff96;
   border-radius: 20px;
 }
@@ -269,11 +269,44 @@
     align-items: center;
     margin-bottom: 20px;
   }
+  .video-titl {
+    position: absolute;
+    top: 24%;
+    right: 5%;
+    color: white;
+    z-index: 10;
+  }
+  .video-titl p {
+    font-size: 3rem;
+  }
 
   .tab-buttons button {
     width: 80%;
     font-size: 1rem;
     padding: 10px 20px;
+  }
+  .prior_card {
+    height: 660px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .prior_card {
+    height: 700px;
+  }
+  .video-titl {
+    position: absolute;
+    top: 28%;
+    right: 5%;
+    color: white;
+    z-index: 10;
+  }
+  .video-titl p {
+    font-size: 2.7rem;
+  }
+}
+@media screen and (max-width: 430px) {
+  .video-titl p {
+    font-size: 2.4rem;
   }
 }
 
