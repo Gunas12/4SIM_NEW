@@ -114,7 +114,9 @@ function Eligibility() {
           style={{ backgroundColor: "#0F3567" }}
         >
           <section className="prioritization-methodology">
-            <h3>{t("Prioritization Methodology")}</h3>
+            <h3 style={{ color: "white" }}>
+              {t("Prioritization Methodology")}
+            </h3>
             <p style={{ color: "white" }}>
               {t(
                 "Under the program, a limited number of companies will be selected each year and invited to participate. Eligible applicants will be officially notified at least three months prior to the start of their participation. This timeframe provides sufficient opportunity for initial discussions and necessary preparations."
