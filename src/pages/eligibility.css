@@ -1,0 +1,354 @@
+.elig {
+  width: 100%;
+
+  padding: 20px 0;
+  background: linear-gradient(to bottom, #252e66, #252e66) !important;
+}
+
+.video-home3 {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  overflow: hidden;
+}
+
+.video-home3 video {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.video-titl {
+  position: absolute;
+  top: 24%;
+  right: 7%;
+  color: white;
+  z-index: 10;
+  font-size: 3.7rem;
+}
+
+.video-titl p {
+  font-size: 3.4rem;
+  margin: 0;
+  text-align: center;
+}
+
+/* Tab düymələri */
+.tab-buttons {
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 15px;
+  z-index: 999;
+}
+
+.tab-buttons button {
+  background: linear-gradient(135deg, #4077d8, #1e3a8a);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  margin-right: 15px;
+  width: 300px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  transition: 0.3s ease-in-out;
+  border: 1px solid white;
+}
+
+.tab-buttons button:hover,
+.tab-buttons button.active {
+  background: linear-gradient(135deg, #1e3a8a, #0f172a);
+  transform: scale(1.05);
+}
+
+.elig-sections {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-shadow: none;
+  margin-top: -10px;
+  padding-top: 0;
+}
+
+.eligibility-criteria,
+.prioritization-methodology {
+  width: 80%;
+
+  margin: 10px 0;
+  background: transparent;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  opacity: 0;
+  transform: scale(0.95);
+  animation: fadeIn 0.5s ease-in-out forwards;
+  margin-top: 0px;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.eligibility-criteria h3,
+.prioritization-methodology h3,
+.eligibility-criteria .description {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 35px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.eligibility-criteria .description {
+  text-align: center;
+  padding-bottom: 17px;
+  font-size: 18px;
+}
+
+.criteria-item h4 {
+  text-align: left;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+.criteria-item p {
+  text-align: left;
+  align-items: self-start;
+  font-size: 17px;
+}
+.criteria-item li {
+  text-align: left;
+  align-items: self-start;
+  font-size: 17px;
+  margin: 10px;
+}
+.criteria-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+/*
+.criteria-item {
+  flex: 1;
+  min-width: 300px;
+
+  color: white;
+  padding: 25px;
+  border-radius: 12px;
+
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  border-radius: 1em;
+  background: linear-gradient(to left, #252e66b3, #151a3fb3);
+  color: #ffffff;
+}
+.criteria-item::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  border-radius: inherit;
+  background: linear-gradient(
+    to left,
+    #98faff79,
+    #ffffff96,
+    #eabfff75,
+    #8726b779
+  );
+  z-index: -1;
+}
+*/
+.criteria-item:hover,
+.prior_card:hover {
+  transform: translateY(-5px) rotate(1deg);
+}
+
+.prior_cards_section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.prior_card {
+  width: 360px;
+  height: 630px;
+  background-color: #eef2ff96;
+  border-radius: 20px;
+}
+.prior_card img {
+  /* width: 360px;*/
+  height: 170px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.eligibility-criteria h3,
+.prioritization-methodology h3 {
+  font-size: 25px;
+  padding: 15px 0;
+  color: #4077d8;
+}
+.eligibility-criteria .description {
+  font-size: 19px;
+  padding: 12px 0;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  line-height: 2.8rem;
+}
+
+.prioritization-methodology p {
+  font-size: 19px;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  padding: 5px 0px;
+  line-height: 2.3rem;
+}
+.prior_cards_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.prior_cards_section img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 2px;
+  border-radius: 10px 10px 0 0;
+}
+
+.prior_card h2 {
+  color: hsl(218, 66%, 55%);
+  margin: 7px auto;
+  align-self: flex-start;
+  padding-bottom: 15px;
+  width: 93%;
+}
+
+.prior_card p {
+  width: 93%;
+  text-align: left;
+  margin: 0 auto;
+  line-height: 1.6rem;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+/*----------------*/
+@media screen and (max-width: 768px) {
+  .tab-buttons {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .tab-buttons button {
+    width: 80%;
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
+
+/*-------------------------*/
+.criteria-item {
+  flex: 1;
+  min-width: 300px;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  border-radius: 0.3em;
+  background: transparent; /* Şəffaf fon */
+  color: #ffffff;
+}
+
+/* Gradient Border */
+.criteria-item::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: inherit;
+  background: linear-gradient(to left, #98f9ff, #ffffff58, #eabfff, #8726b7);
+  z-index: -2;
+}
+
+/* İç hissənin fonunu şəffaf etmək üçün */
+.criteria-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  background: linear-gradient(to left, #252e66e2, #151a3feb);
+  z-index: -1;
+}
+/*--------------------------------------------------*/
+.prior_card {
+  position: relative;
+  border-radius: 10px;
+  background: transparent; /* Şəffaf fon */
+  color: #ffffff;
+}
+
+/* Gradient Border */
+.prior_card::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: inherit;
+  background: linear-gradient(to left, #98f9ff, #ffffff58, #eabfff, #8726b7);
+  z-index: -2;
+}
+
+/* İç hissənin fonunu şəffaf gradient etmək üçün */
+.prior_card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  background: linear-gradient(to left, #252e66e2, #151a3feb);
+  z-index: -1;
+}

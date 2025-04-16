@@ -1,0 +1,368 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding-top: 40px;
+  
+}
+
+.form-container {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 20px;
+}
+
+.apply-form {
+  padding: 50px;
+}
+
+h2 {
+  text-align: left;
+  color: #004aad;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.industry {
+  text-align: left;
+  color: #004aad;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+.company-size-container {
+  display: flex;
+  gap: 80px;
+}
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: white !important;
+}
+.custom-file-upload{
+  color:#333;
+}
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+input[type="file"] {
+  padding: 5px;
+}
+
+.form-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 0;
+}
+
+input {
+  width: 50%;
+}
+
+label {
+  margin-top: 18px;
+}
+
+.confirm-checkbox {
+  
+  width: 4%;
+  border: 2px solid #007bff; 
+}
+
+.confirm-text{
+  color: #004aad;;
+}
+.key-checkbox {
+  width: 10%;
+}
+
+
+.select {
+  width: 52%;
+}
+
+.form-div select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="blue"><path d="M7 10l5 5 5-5z"></path></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.next,
+.back,
+.submit-button {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 20%;
+  margin-top: 15px;
+  transition: background 0.3s, transform 0.2s;
+}
+.son-buttons{
+  display: flex;
+  flex-direction: column;
+}
+button:hover {
+  background: linear-gradient(135deg, #0056b3, #004099);
+  transform: scale(1.02);
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.custom-file-upload {
+  width:80px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid  #004aad;; 
+  text-align: center;
+}
+
+
+@media (max-width: 1367px) {
+  .form-div {
+    margin-left: 0px;
+  }
+
+  .apply-form {
+    padding: 30px;
+  }
+
+  input {
+    width: 70%;
+  }
+
+  .select {
+    width: 73%;
+    border: 8px; 
+    height: 44px;
+  }
+  .company-size-container{
+    display: flex;
+  flex-direction: column;
+  gap: 20px;
+  }
+
+  .next,
+  .back,
+  .submit-button {
+    width:70%;
+    margin-left: 0px;
+  }
+  .back{
+    width: 70%;
+    margin-left: 0px;
+  }
+  .confirm-checkbox {
+    width: 4%;
+  }
+}
+
+@media (max-width: 769px) {
+  .form-div {
+    margin-left: 0px;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 85%;
+  }
+  .select{
+    width: 90%;
+  }
+
+.company-size-container{
+  display: flex;
+flex-direction: column;
+gap: 20px;
+}
+  .apply-form {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .next,
+  .back,
+  .submit-button {
+    width: 58%;
+    padding: 10px 0;
+    margin-left: 0px;
+  }
+  .back
+  {
+    width: 59%;
+    padding: 10px 0;
+    margin-left: 0px;
+
+  }
+
+  .checkbox-group {
+    gap: 10px;
+  }
+  .confirm-checkbox {
+    width: 10%;
+  }
+}
+
+@media (max-width: 480px) {
+  .apply-form {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+  .industry {
+    margin-top: 80px;
+    margin-bottom: 10px;
+  }
+  .form-container {
+    max-width: 1000px;
+    margin: 0px 20px;
+    padding: 10px;
+  }
+  .form-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+  } 
+
+  .next,
+  .back,
+  .submit-button {
+    width: 90%;
+    padding: 12px;
+    margin-left: 0px;
+  }
+  .back{
+    width: 90%;
+    margin-left: 0px;
+  }
+  .submit-button{
+    width: 90%;
+    margin-left: 0px;
+  }
+
+  input,
+  select,
+  textarea {
+    font-size: 14px;
+  }
+  .select {
+    width: 95%;
+    border: 8px; 
+    height: 44px;
+  }
+  .confirm-checkbox {
+    width: 10%;
+  }
+  .company-size-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 376px) {
+  .form-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+  } 
+  .apply-form {
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+  .industry {
+    margin-top: 80px;
+    margin-bottom: 10px;
+  }
+  .form-container {
+    max-width: 1000px;
+    margin: 0px 20px;
+    padding: 10px;
+  }
+  
+
+  .next,
+  .back,
+  .submit-button {
+    width: 90%;
+    padding: 12px;
+    margin-left: 0px;
+  }
+  .back{
+    width: 90%;
+    margin-left: 0px;
+  }
+  .submit-button{
+    width: 90%;
+    margin-left: 0px;
+  }
+
+  input,
+  select,
+  textarea {
+    font-size: 14px;
+  }
+  .select {
+    width: 95%;
+    border: 8px; 
+    height: 44px;
+  }
+  .confirm-checkbox {
+    width: 10%;
+  }
+  .company-size-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
