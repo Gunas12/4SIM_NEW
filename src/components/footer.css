@@ -1,6 +1,7 @@
 .footer {
   height: 140px;
-  background: linear-gradient(to bottom, #151a3f, #070a1f);
+  background-color: #0f3567 !important;
+
   display: flex;
   flex-direction: column;
   justify-content: center;

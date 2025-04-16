@@ -2,7 +2,7 @@
   width: 100%;
 
   padding: 20px 0;
-  background: linear-gradient(to bottom, #252e66, #252e66) !important;
+  background-color: #0f3567;
 }
 
 .video-home3 {
@@ -91,7 +91,7 @@
 
   margin: 10px 0;
   background: transparent;
-  padding: 40px;
+
   border-radius: 15px;
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   opacity: 0;

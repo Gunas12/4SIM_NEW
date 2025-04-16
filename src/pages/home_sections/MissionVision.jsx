@@ -23,7 +23,7 @@ function MissionVision() {
 
         <p>
           {t(
-            "The Digital Transformation Support Program will facilitate the transformation of 650 Azerbaijan manufacturing companies (500 SMEs and 150 large enterprises) by 2030 under the supervision of 4SIM and Ministry of Economy (MoE)."
+            "The “Industry 4.0 Readiness” Program aims to digitally transform 650 manufacturing enterprises in Azerbaijan by 2030 under the supervision of 4SIM and the Ministry of Economy."
           )}
         </p>
       </div>

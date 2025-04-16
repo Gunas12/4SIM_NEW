@@ -30,13 +30,12 @@ function Eligibility() {
           <p>{t("Prioritization")}</p>
         </div>
       </div>
-      <div className="elig-sections">
+      <div className="elig-sections" style={{ backgroundColor: "white" }}>
         <h2
           style={{
             fontSize: "38px",
-            marginTop: "28px",
+            marginTop: "32px",
             marginBottom: "0px",
-            color: "white",
           }}
         >
           {t("Eligibility və Prioritization")}
@@ -47,10 +46,11 @@ function Eligibility() {
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
           variants={fadeInVariants}
+          style={{ backgroundColor: "white" }}
         >
           <section className="eligibility-criteria">
             <h3>{t("Eligibility Criteria")}</h3>
-            <p className="description" style={{ color: "white" }}>
+            <p className="description">
               {t(
                 "To benefit from the “Industry 4.0 Readiness” Program, companies must meet the following criteria:"
               )}
@@ -106,11 +106,12 @@ function Eligibility() {
           </section>
         </motion.div>
         <motion.div
-          className="sectionx section"
+          className="sectionx section "
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
           variants={fadeInVariants}
+          style={{ backgroundColor: "#0F3567" }}
         >
           <section className="prioritization-methodology">
             <h3>{t("Prioritization Methodology")}</h3>
