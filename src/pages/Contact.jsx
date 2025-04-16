@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 function Contact() {
   const { t } = useTranslation();
   return (
-    <div className="page_content">
+    <div className="page_content" style={{ backgroundColor: "#0F3567" }}>
       <div className="contact_container">
         <div className="contact_info">
           <h2

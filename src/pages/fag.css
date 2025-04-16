@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to bottom, #252e66, #252e66) !important;
 }
 .faq-container {
   width: 80%;

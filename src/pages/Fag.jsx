@@ -11,7 +11,7 @@ function Fag() {
   };
 
   return (
-    <div className="Fagg">
+    <div className="Fagg" style={{ backgroundColor: "#0F3567" }}>
       <div className="video-home7">
         <video autoPlay muted loop>
           <source src={fag} type="video/mp4" />
@@ -23,7 +23,7 @@ function Fag() {
         </div>
       </div>
 
-      <div className="Fag">
+      <div className="Fag" style={{ backgroundColor: "#0F3567" }}>
         <div className="faq-container">
           <h4 style={{ color: "white" }}>
             <b>{t("Frequently Asked Questions")}</b>

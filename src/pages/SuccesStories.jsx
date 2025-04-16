@@ -21,12 +21,7 @@ function SuccesStories() {
   const videoRef = React.useRef(null);
 
   return (
-    <div
-      className="succes"
-      style={{
-        background: "linear-gradient(to bottom, #27306b, #252e66, #151a3f)",
-      }}
-    >
+    <div className="succes" style={{ backgroundColor: "white" }}>
       <div className="video-home1">
         <video autoPlay muted loop>
           <source src={Success} type="video/mp4" />
@@ -40,7 +35,6 @@ function SuccesStories() {
           marginTop: "28px",
           marginBottom: "0px",
           textAlign: "center",
-          color: "white",
         }}
       >
         {t("Success Stories")}
@@ -64,6 +58,7 @@ function SuccesStories() {
           <div className="row">
             <div className="story">
               <img src={Metak} alt="metak_logo" />
+
               <h2>Metak</h2>
               <p>
                 {t(
@@ -93,7 +88,10 @@ function SuccesStories() {
         </section>
       </motion.div>
 
-      <div className="responsive-video-wrapper">
+      <div
+        className="responsive-video-wrapper"
+        style={{ backgroundColor: "#0F3567" }}
+      >
         <div className="video-box">
           <video ref={videoRef} className="responsive-video" controls>
             <source src={Succ_Video} type="video/mp4" />
