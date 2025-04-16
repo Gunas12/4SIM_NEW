@@ -27,7 +27,7 @@ function Contact() {
           <h2>{t("Contact number :")}</h2>
           <p>{t("+ 99412 310 28 00 (ext. 2418)")}</p>
 
-          <h2>{t("E-mail:")}</h2>
+          <h2>{t("E-mail")}</h2>
           <p>office@4sim.gov.az</p>
         </div>
 
